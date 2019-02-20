@@ -1,0 +1,16 @@
+{
+  "name": "pecker",
+  "version": "1.0.0",
+  "description": "Pecker function",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valentin1918/pecker"
+  },
+  "keywords": [
+    "pecker"
+  ],
+  "author": "grekulov.valentyn@gmail.com",
+  "license": "MIT",
+  "homepage": "https://github.com/Valentin1918/pecker#readme"
+}
