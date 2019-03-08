@@ -7,4 +7,4 @@
 pecker.work(callBack, peckInterval, dieInterval); // -> to start pecker
 pecker.clear(); // -> to clear pecker
 ```
-![alt text](./woody.jpg)
+![wood-pecker](./woody.jpg)
