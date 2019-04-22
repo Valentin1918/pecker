@@ -7,7 +7,7 @@ export const pecker = {
       } catch (e) {
         console.log('Some error occurred: ', e);
     }}, delay);
-    setTimeout(this.clear, dieDelay);
+    setTimeout(() => this.clear(), dieDelay);
   },
   clear: function () {
     if (this.interval) clearInterval(this.interval);
