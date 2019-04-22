@@ -1,5 +1,5 @@
 export const pecker = {
-  work: function (cb, delay, dieDelay) {
+  work: function (cb, delay, dieDelay, dieCb) {
     this.interval = setInterval(() => {
       try {
         const result = cb();
@@ -7,10 +7,11 @@ export const pecker = {
       } catch (e) {
         console.log('Some error occurred: ', e);
     }}, delay);
-    setTimeout(() => this.clear(), dieDelay);
+    setTimeout(() => this.clear(dieCb), dieDelay);
   },
-  clear: function () {
+  clear: function (dieCb) {
     if (this.interval) clearInterval(this.interval);
     this.interval = null;
+    if (typeof dieCb === 'function') dieCb();
   }
 };
