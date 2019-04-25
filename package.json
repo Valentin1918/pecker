@@ -1,8 +1,8 @@
 {
   "name": "woody-woodpecker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Pecker function",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Valentin1918/pecker"
