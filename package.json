@@ -1,6 +1,6 @@
 {
   "name": "woody-woodpecker",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Pecker function",
   "main": "lib/index.js",
   "repository": {
